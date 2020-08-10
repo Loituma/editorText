@@ -1,0 +1,6 @@
+#starBtn {
+    cursor: pointer;
+    padding: 3px 7px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}

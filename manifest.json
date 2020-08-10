@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "EditorText",
+  "version": "1.0",
+  "author": "Aymeric",
+  "description": "Select text on web page and edit it without to inspect the page.",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "38": "button/button-38.png"
+    },
+    "default_title": "EditorText",
+    "default_area": "navbar",
+    "default_popup": "menu/menu.html"
+  }
+}
